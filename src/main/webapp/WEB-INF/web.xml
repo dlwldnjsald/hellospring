@@ -19,7 +19,7 @@
   		기본 위치, 기본 파일명이 아닐때 -->
   	<!-- init-param>
   		<param-name>contextConfigLocation</param-name>
-  		<param-value>spring-servlet.xml</param-value>
+  		<param-value>/WEB-INF/spring-servlet.xml</param-value>
   	</init-param -->
   </servlet>
   
