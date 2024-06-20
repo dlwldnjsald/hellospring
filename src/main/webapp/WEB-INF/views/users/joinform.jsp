@@ -15,7 +15,7 @@
 			
 			<h1>Join Form</h1> 
 			
-			<form method="POST" action="<%= request.getContextPath() %>/users">
+			<form method="POST" action="<%= request.getContextPath() %>/users/join">
 				<input type="hidden" name="a" value="join" />
 				<label for="name">이름</label>
 				<input type="text" name="name" id="name" placeholder="이름을 입력하세요"/><br/>
