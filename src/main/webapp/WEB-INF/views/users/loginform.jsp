@@ -13,14 +13,7 @@
 		<div id="wrapper">
 			<div id="content">
 				<h1>Login</h1>
-				<%
-				//	에러메시지 출력 (만약 있다면...)
-				if (errorMsg != null) {
-					%>
-				<p style="color:red; font-weight:bold;"><%= errorMsg %></p>
-					<%
-				}
-				%>
+
 				<form method="POST" action="<%= request.getContextPath() %>/users">
 					<input type="hidden" name="a" value="login" />
 					<label for="email">이메일</label>
